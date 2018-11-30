@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <!-- i can find proper icon at fontawesome.com -->
-    <title>Chats</title>
-  </head>
-  <body>
-    <header>
-      <div class="header_top">
-        <div class="header_column">
-          <i class="fas fa-plane"></i>
-          <i class="fas fa-wifi"></i>
-        </div>
-        <div class="header_column">
-          <span class="header_time">18:38</span>
-        </div>
-        <div class="header_column">
-          <i class="fas fa-moon"></i>
-          <i class="fab fa-bluetooth-b"></i>
-          <span class="header_battery">66% <i class="fas fa-battery-three-quarters"></i></span>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- i can find proper icon at fontawesome.com -->
+  <title>Chats</title>
+</head>
+
+<body>
+  <header>
+    <div class="header_top">
+      <div class="header_column">
+        <i class="fas fa-plane"></i>
+        <i class="fas fa-wifi"></i>
       </div>
-      <div class="header_bottom">
-        <div class="header_column">
-          <span class="header_text">Edit</span>
-        </div>
-        <div class="header_column">
-          <span class="header_text">Chats <i class="fas fa-caret-down"></i></span>
-        </div>
-        <!-- <div class="header_column">
+      <div class="header_column">
+        <span class="header_time">18:38</span>
+      </div>
+      <div class="header_column">
+        <i class="fas fa-moon"></i>
+        <i class="fab fa-bluetooth-b"></i>
+        <span class="header_battery">66% <i class="fas fa-battery-three-quarters"></i></span>
+      </div>
+    </div>
+    <div class="header_bottom">
+      <div class="header_column">
+        <span class="header_text">Edit</span>
+      </div>
+      <div class="header_column">
+        <span class="header_text">Chats <i class="fas fa-caret-down"></i></span>
+      </div>
+      <!-- <div class="header_column">
           <i class="fas fa-cog"></i>
         </div> -->
-      </div>
-    </header>
-    <main class="chats">
-      <div class="search_bar">
-        <i class="fas fa-search"></i>
-        <input type="text" placeholder="Find friends, chats, Plus Friends" name="" value="">
-      </div>
-      <ul class="chats_list">
-        <li class="chats_chat">
+    </div>
+  </header>
+  <main class="chats">
+    <div class="search_bar">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus Friends" name="" value="">
+    </div>
+    <ul class="chats_list">
+      <li class="chats_chat">
+        <a href="chat.html">
           <div class="chat_content">
             <img src="images/erin.jpeg" alt="">
             <div class="chat_preview">
@@ -51,8 +54,10 @@
           <span class="chat_date_time">
             15:55
           </span>
-        </li>
-        <li class="chats_chat">
+        </a>
+      </li>
+      <li class="chats_chat">
+        <a href="chat.html">
           <div class="chat_content">
             <img src="images/erin.jpeg" alt="">
             <div class="chat_preview">
@@ -61,31 +66,33 @@
             </div>
           </div>
           <span class="chat_date_time">
-            Nov 30 
+            Nov 30
           </span>
-        </li>
-      </ul>
-      <div class="chat_button">
-        <i class="fas fa-comment"></i>
-      </div>
-    </main>
-    <nav class="tab_bar">
-      <a href="index.html" class="tab_bar_tab">
-        <i class="fas fa-user-circle"></i>
-        <span class="tab_bar_title">Friends</span>
-      </a>
-      <a href="chats.html" class="tab_bar_tab tab_bar_selected">
-        <i class="fas fa-comment"></i>
-        <span class="tab_bar_title">Chats</span>
-      </a>
-      <a href="find.html" class="tab_bar_tab">
-        <i class="fas fa-search"></i>
-        <span class="tab_bar_title">Find</span>
-      </a>
-      <a href="more.html" class="tab_bar_tab">
-        <i class="fas fa-ellipsis-h"></i>
-        <span class="tab_bar_title">More</span>
-      </a>
-    </nav>
-  </body>
+        </a>
+      </li>
+    </ul>
+    <div class="chat_button">
+      <i class="fas fa-comment"></i>
+    </div>
+  </main>
+  <nav class="tab_bar">
+    <a href="index.html" class="tab_bar_tab">
+      <i class="fas fa-user-circle"></i>
+      <span class="tab_bar_title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab_bar_tab tab_bar_selected">
+      <i class="fas fa-comment"></i>
+      <span class="tab_bar_title">Chats</span>
+    </a>
+    <a href="find.html" class="tab_bar_tab">
+      <i class="fas fa-search"></i>
+      <span class="tab_bar_title">Find</span>
+    </a>
+    <a href="more.html" class="tab_bar_tab">
+      <i class="fas fa-ellipsis-h"></i>
+      <span class="tab_bar_title">More</span>
+    </a>
+  </nav>
+</body>
+
 </html>
