@@ -2,6 +2,10 @@
   background-color: #523737;
   color: white;
   padding: 5px 10px 15px 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .top_header .header_top {
