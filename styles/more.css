@@ -1,0 +1,140 @@
+.more {
+  background-color: #eeeeee;
+}
+
+.more_header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.more_header .more_header_column img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.more_header .more_header_column {
+  display: flex;
+  align-items: center;
+}
+
+.more_header .more_header_column i {
+  font-size: 30px;
+}
+
+.more_header_info .more_header_title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.more_header_info .header_subtitle {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.more_options {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.more_options .more_option {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.more_options .more_option i {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.more_options .more_option .more_option_title {
+  font-size: 14px;
+}
+
+.more .more_plus_friends {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+}
+
+.more_plus_friends .more_plus_friends_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.more_plus_friends_header .more_plus_friends_header_title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.more_plus_friends_header .more_plus_friends_header_more {
+  color: #8e8e8e;
+}
+
+.more_plus_friends_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.more_plus_friends_items .more_plus_friends_item {
+  width: 50%;
+}
+
+.more_plus_friends_items .more_plus_friends_item i {
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.more_plus_friends_item .more_plus_friends_item_title {
+  font-size: 16px;
+  /* width: 200px;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: normal !important;
+  display: block; */
+}
+
+.more_plus_friends_apps {
+  display: flex;
+  /* justify-content: space-around; */
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.more_plus_friends_apps .more_plus_friends_app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.more_plus_friends_apps .more_plus_friends_app img {
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.more_plus_friends_app .more_plus_friends_app_name {
+  font-size: 16px;
+}

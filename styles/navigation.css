@@ -1,7 +1,7 @@
 .tab_bar {
   background-color: #f7f7f7;
   position: fixed;
-  /* width: 100%; */
+  /* width: 100%; it does not work... */
   left: 0;
   right: 0;
   bottom: 0;

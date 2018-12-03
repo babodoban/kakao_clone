@@ -1,0 +1,37 @@
+.find_options {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.find_options .find_option {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.find_options .find_option i {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.find_options .find_option .find_option_title {
+  font-size: 14px;
+}
+
+.find_recommended .find_recommended_title {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  color: #8e8e8e;
+  padding: 10px 15px;
+}
+
+.find_recommended .recommended_none {
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+  padding: 30px;
+  color: #8e8e8e;
+}
