@@ -1,0 +1,127 @@
+.body_chat {
+  padding-bottom: 0;
+}
+
+.chat_header,
+.chat_header a {
+  background-color: #a1c0d6;
+  color: black;
+}
+
+.chat_header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chat {
+  background-color: #a1c0d6;
+  height: 100vh;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.chat .date_devider {
+  text-align: center;
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-bottom: 15px;
+}
+
+.chat_message {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat_message_from_me {
+  justify-content: flex-end;
+}
+
+.chat_message_from_you img {
+  align-self: flex-start;
+}
+
+.chat_message_time {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.chat_message_from_me .chat_message_body {
+  background-color: yellow;
+  padding: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.chat_message_from_you img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat_message_center .chat_message_name {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.chat_message_center {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat_message_center .chat_message_body {
+  background-color: white;
+  padding: 15px;
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.chat_message_center .chat_message_time {
+  color: #8e8e8e;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.type_message {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.type_message .fa-plus {
+  color: #8e8e8e;
+}
+
+.type_message_input {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.type_message_input input {
+  width: 100%;
+  padding: 10px;
+}
+
+.type_message_input .fa-smile-wink {
+  position: absolute;
+  right: 40px;
+  color: #8e8e8e;
+}
+
+.type_message_input .fa-microphone {
+  background-color: yellow;
+  padding: 10px;
+  cursor: pointer;
+}

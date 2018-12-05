@@ -1,3 +1,7 @@
+.header_column .header_text.find_edit {
+  color: #8e8e8e;
+}
+
 .find_options {
   background-color: #eeeeee;
   display: flex;
