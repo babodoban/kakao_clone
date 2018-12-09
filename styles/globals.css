@@ -3,3 +3,32 @@ body {
   padding-top: 60px;
   padding-bottom: 80px;
 }
+
+main {
+  animation: 0.5s bodyPopIn ease-in-out;
+}
+
+@keyframes bodyPopIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+img,
+i {
+  animation: 0.5s scaleFriend ease-in-out;
+}
+
+@keyframes scaleFriend {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

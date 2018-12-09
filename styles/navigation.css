@@ -18,6 +18,11 @@
   text-decoration: none;
   color: #c1c1c1;
   /* margin-right: 20px; */
+  transition: transform 0.3s linear;
+}
+
+.tab_bar .tab_bar_tab:hover {
+  transform: scale(1.1);
 }
 
 .tab_bar .tab_bar_tab i {
